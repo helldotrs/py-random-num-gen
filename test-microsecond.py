@@ -1,6 +1,6 @@
 from datetime import datetime
 
-for a in range(10) 
+for a in range(10):
     current_time = datetime.now()
     microseconds_rightmost_digit = current_time.microsecond % 10
 
