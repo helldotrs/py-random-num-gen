@@ -13,3 +13,19 @@ while True:
 
     # Optionally, add a small delay to avoid excessive CPU usage
     time.sleep(0.1)
+"""
+output:
+$ python3 test-loop-break.py
+Microseconds rightmost digit: 9
+Microseconds rightmost digit: 1
+Microseconds rightmost digit: 6
+Microseconds rightmost digit: 5
+Microseconds rightmost digit: 2
+Microseconds rightmost digit: 2
+Microseconds rightmost digit: 4
+Microseconds rightmost digit: 3
+Microseconds rightmost digit: 4
+Microseconds rightmost digit: 6
+Microseconds rightmost digit: 0
+Breaking the loop.
+"""
