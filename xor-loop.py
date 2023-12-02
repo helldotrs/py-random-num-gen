@@ -3,7 +3,7 @@ import datetime
 test = True
 strength = 16
 def gen_rand_bool():
-    rand_value = 0
+    flip_value = 0
     output     = 0
     
     for a in range(strength):
@@ -11,13 +11,13 @@ def gen_rand_bool():
             print("---range loop itr.---")
         while True: #xor loop
             time_value = datetime.datetime.now().microsecond % 10
-            rand_value = 1 - rand_value
+            flip_value = 1 - flip_value
 
             if test:
-                print("xor loop itr. var: output: " + str(output) + ". time_value: " + str(time_value) + ". rand_value: " + str(rand_value) + ". ")
+                print("xor loop itr. var: output: " + str(output) + ". time_value: " + str(time_value) + ". flip_value: " + str(flip_value) + ". ")
 
             if not time_value: 
-                output = output != rand_value
+                output = output != flip_value
                 break
 
     return output
