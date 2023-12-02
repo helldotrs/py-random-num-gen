@@ -21,8 +21,13 @@ def gen_rand_bool():
                 break
 
     return output
-
+    
+if test
+    i = 0
 for _ in range(10):
+    if test:
+        i += 1
+        print(i)
     print(gen_rand_bool())
 
 
