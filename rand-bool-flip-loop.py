@@ -10,13 +10,13 @@ def gen_rand_bool(test = False):
     
     for _ in range(STRENGTH):
         if test:
-            print("---range loop itr.---")
+            print("-range loop itr-")
         while True: #flip loop
             time_value = datetime.datetime.now().microsecond % 10
             flip_value = 1 - flip_value
 
             if test:
-                print("flip loop itr. var - output: " + str(output) + ". time_value: " + str(time_value) + ". flip_value: " + str(flip_value) + ". ")
+                print("-flip loop itr- value are; output: " + str(output) + ". time_value: " + str(time_value) + ". flip_value: " + str(flip_value) + ". ")
 
             if not time_value: 
                 output = output != flip_value
