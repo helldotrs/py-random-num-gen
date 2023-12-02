@@ -11,7 +11,7 @@ def gen_rand_binary():
             rand_value = 1 - rand_value
           
             if not time_value: 
-                output = output - rand_value
+                output = output != rand_value
                 break
 
     return output
