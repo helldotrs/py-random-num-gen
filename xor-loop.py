@@ -24,7 +24,7 @@ def gen_rand_bool():
 
     return output
     
-if TEST
+if TEST:
     i = 0
 for _ in range(10):
     if TEST:
