@@ -1,6 +1,6 @@
 import datetime
 
-TEST = False
+TEST = True
 STRENGTH = 16
 
 
@@ -16,7 +16,7 @@ def gen_rand_bool(test = False):
             flip_value = 1 - flip_value
 
             if test:
-                print("flip loop itr. var: output: " + str(output) + ". time_value: " + str(time_value) + ". flip_value: " + str(flip_value) + ". ")
+                print("flip loop itr. var - output: " + str(output) + ". time_value: " + str(time_value) + ". flip_value: " + str(flip_value) + ". ")
 
             if not time_value: 
                 output = output != flip_value
