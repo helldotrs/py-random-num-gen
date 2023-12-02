@@ -25,6 +25,5 @@ def gen_rand_bool():
 for _ in range(10):
     print(gen_rand_bool())
 
-print(gen_rand_binary())
 
 
