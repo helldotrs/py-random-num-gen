@@ -16,9 +16,13 @@ def gen_rand_binary():
 
         return output
 
-print(gen_rand_binary)
-print(gen_rand_binary)
-print(gen_rand_binary)
-print(gen_rand_binary)
-print(gen_rand_binary)
-print(gen_rand_binary)
+print(gen_rand_binary())
+print(gen_rand_binary())
+print(gen_rand_binary())
+print(gen_rand_binary())
+print(gen_rand_binary())
+print(gen_rand_binary())
+print(gen_rand_binary())
+print(gen_rand_binary())
+
+
