@@ -14,7 +14,7 @@ def gen_rand_binary():
                 output = output - rand_value
                 break
 
-        return output
+    return output
 
 for _ in range(10):
     print(gen_rand_binary())
