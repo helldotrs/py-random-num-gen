@@ -1,7 +1,7 @@
 import datetime
 
 strength = 16
-def gen_rand_binary():
+def gen_rand_bool():
     rand_value = 0
     output     = 0
     
@@ -17,7 +17,7 @@ def gen_rand_binary():
     return output
 
 for _ in range(10):
-    print(gen_rand_binary())
+    print(gen_rand_bool())
 
 print(gen_rand_binary())
 
