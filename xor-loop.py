@@ -2,15 +2,14 @@ import datetime
 
 strength = 16
 def gen_rand_binary():
-  binary = 0
-  for a in range(strength):
-    while True:
-      current_time = datetime.datetime.now()
-      binary = 1 - binary #xor
-
-      #FIXME:
-      current_time = datetime.datetime.now()
-      microseconds_rightmost_digit = current_time.microsecond % 10
-      if microseconds_rightmost_digit == 0:
-          print("Breaking the loop.")
-          break # and output binary?
+    rand_value = 0
+    output     = 0
+    
+    for a in range(strength):
+        while True: #xor loop
+            time_value = datetime.datetime.now().microsecond % 10
+            rand_value = 1 - rand_value
+          
+            if not time_value: 
+                output = output - rand_value
+                break
