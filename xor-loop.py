@@ -13,3 +13,13 @@ def gen_rand_binary():
             if not time_value: 
                 output = output - rand_value
                 break
+
+        return output
+
+print(get_rand_binary)
+print(get_rand_binary)
+print(get_rand_binary)
+print(get_rand_binary)
+print(get_rand_binary)
+
+
