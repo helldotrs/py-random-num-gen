@@ -8,7 +8,7 @@ def gen_rand_bool(test = False):
     flip_value = 0
     output     = 0
     
-    for a in range(STRENGTH):
+    for _ in range(STRENGTH):
         if test:
             print("---range loop itr.---")
         while True: #flip loop
@@ -25,9 +25,7 @@ def gen_rand_bool(test = False):
     return output
 
 if TEST:
-    i = 0
-    for _ in range(10):
-        i += 1
+    for i in range(10):
         print(i)
         print(gen_rand_bool(test = True))
     print("---end of test---")
