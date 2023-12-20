@@ -1,6 +1,6 @@
 import datetime
 
-TEST = True
+TEST = False
 STRENGTH = 16
 
 
@@ -30,4 +30,4 @@ if TEST:
         print(gen_rand_bool(test = True))
     print("---end of test---")
 
-print(gen_rand_bool())
+
