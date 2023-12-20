@@ -38,11 +38,11 @@ if TEST:
 total = ""
 
 #run for loop 48k times
-for _ in range(48000):
+for _ in range(48000*8):
     total += str(int(gen_rand_bool()))
 
 #export total to file
-with open(os.path.join(sys.path[0], "rand-bool-flip-loop_48k_export.txt"), "w") as file:
+with open(os.path.join(sys.path[0], "results-48kilobyte.txt"), "w") as file:
     file.write(total)
 
 print("done")
