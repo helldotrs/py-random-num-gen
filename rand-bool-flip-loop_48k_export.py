@@ -39,7 +39,7 @@ total = ""
 
 #run for loop 48k times
 for _ in range(48000):
-    total += str(gen_rand_bool())
+    total += str(int(gen_rand_bool()))
 
 #export total to file
 with open(os.path.join(sys.path[0], "rand-bool-flip-loop_48k_export.txt"), "w") as file:
